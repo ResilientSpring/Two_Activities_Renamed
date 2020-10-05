@@ -1,4 +1,4 @@
-package com.example.twoactivities;
+package com.example.twoactivities_copy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class SecondActivity extends AppCompatActivity {
 
     // add a public constant to define the key for the Intent extra
-    public static final String EXTRA_REPLY = "com.example.android.twoactivities.extra.REPLY"; // URL
+    public static final String EXTRA_REPLY = "com.example.android.twoactivities_copy.extra.REPLY"; // URL
 
     // Add a private variable at the top of the class to hold the EditText.
     private EditText mReply;
